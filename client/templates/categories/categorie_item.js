@@ -1,5 +1,5 @@
 Template.categorieItem.helpers({
     categories :function() {
-        return categories.find()
+        return Categories.find()
     }
 });

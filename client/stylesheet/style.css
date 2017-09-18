@@ -2,7 +2,7 @@
     margin-left:30%;
 }
 .main{
-    background-image: url("/bg.jpg");
+    background-image: url("/Food.jpg");
 }
 grid-block, .main, .post, .comments li, .comment-form {
     background: #f8f8f8;
@@ -14,7 +14,9 @@ grid-block, .main, .post, .comments li, .comment-form {
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15); }
 
 body {
-    background-image: url("/images/bg.jpg");
+    background-image: url("/images/Food.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #main {
@@ -167,4 +169,10 @@ body {
     clear: both;
     margin-bottom: 5px;
     pointer-events: auto;
+}
+
+.entete{
+
+    margin:30px;
+    text-align: center;
 }

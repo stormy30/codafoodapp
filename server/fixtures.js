@@ -65,8 +65,8 @@ if (Categories.find().count() === 0) {
         }
     ];
 
-// // _.each(PizzasList, function (doc) {
-// //     Pizzas.insert(doc);
-// // }
-// );
+_.each(PizzasList, function (doc) {
+    Pizzas.insert(doc);
+}
+);
 }
