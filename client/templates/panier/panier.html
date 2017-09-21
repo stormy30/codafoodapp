@@ -1,25 +1,30 @@
 
 <template name="panier">
 
-
     <div class="post">
         <div class="postsList">
     <div class="container">
-        <h1>votre pannier</h1>
-        <div class="row">
-            <div class="box col-xs-11 text-center col-sm-6 text-center col-md-4 text-center">
+
+
                 <div class="content">
-                    {{#each panier}}
-                        <p> <img class="" src="/images/{{image}}">{{countItem}} {{name}} = {{price}}€</p>
-                        <input class="supprimer" type="button" name="supprimer" value="Supprimer">
-                        <hr>
-                    {{/each}}
+                        <h1>votre pannier</h1>
+
+                            {{#each panier}}
+
+                        <img  src="/images/{{image}}" width="50px"><br>
+                                {{name}} <span>=</span>
+                                {{invoiceprice}}€
+                        <input  class="btn btn-danger delete" type="button" name="supprimer" value="Supprimer">
+    <!--ici dans l'imput on assigne à la classe compteur un {{_id}} pour mermettre la modification-->
+                        <span><input class="compteur {{_id}}" name="compteur" type="number" value="{{compteur}}"><br></span>
+                                <br>
+                            {{/each}}
+                    <br><br><h2>Total du panier :{{total}}€<br></h2>
                     <input class="commander" type="submit" name="commander" value="Passer ma commande !">
                     <a href="{{pathFor 'categoriesList'}}" class="retour">Continuer la commande</a>
 
                 </div>
-            </div>
-        </div>
+
     </div>
         </div>
     </div>
