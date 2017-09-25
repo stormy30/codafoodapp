@@ -13,7 +13,7 @@ Template.panier.helpers({
 }
 
 });
-//assigne un event sur le template
+//assigne un event sur le template pizza
 
 Template.pizzas.events({
     'submit .formulaire'(event) {
@@ -35,6 +35,102 @@ Template.pizzas.events({
         }
 
 });
+
+//assigne un event sur le template burgers
+
+Template.burgers.events({
+    'submit .formulaire'(event) {
+// prevent default permet de rester sur la meme page
+        event.preventDefault();
+        let compteur = event.target.compteur.value;
+
+        // console.log(compteur);
+        //insertion des données dans la bd locale:Panier
+        Panier.insert({
+
+            compteur:compteur,
+            image:this.image,
+            name:this.name,
+            price:this.price,
+            invoiceprice:this.price*compteur
+        });
+
+    }
+
+});
+
+//assigne un event sur le template salade
+
+Template.salades.events({
+    'submit .formulaire'(event) {
+// prevent default permet de rester sur la meme page
+        event.preventDefault();
+        let compteur = event.target.compteur.value;
+
+        // console.log(compteur);
+        //insertion des données dans la bd locale:Panier
+        Panier.insert({
+
+            compteur:compteur,
+            image:this.image,
+            name:this.name,
+            price:this.price,
+            invoiceprice:this.price*compteur
+        });
+
+    }
+
+});
+
+
+
+
+//assigne un event sur le template boissons
+Template.boissons.events({
+    'submit .formulaire'(event) {
+// prevent default permet de rester sur la meme page
+        event.preventDefault();
+        let compteur = event.target.compteur.value;
+
+        // console.log(compteur);
+        //insertion des données dans la bd locale:Panier
+        Panier.insert({
+
+            compteur:compteur,
+            image:this.image,
+            name:this.name,
+            price:this.price,
+            invoiceprice:this.price*compteur
+        });
+
+    }
+
+});
+
+
+
+//assigne un event sur le template dessert
+Template.desserts.events({
+    'submit .formulaire'(event) {
+// prevent default permet de rester sur la meme page
+        event.preventDefault();
+        let compteur = event.target.compteur.value;
+
+        // console.log(compteur);
+        //insertion des données dans la bd locale:Panier
+        Panier.insert({
+
+            compteur:compteur,
+            image:this.image,
+            name:this.name,
+            price:this.price,
+            invoiceprice:this.price*compteur
+        });
+
+    }
+
+});
+
 
 //////suppession des articles choisis///
 

@@ -2,17 +2,19 @@
 
     <div class="post">
         <div class="postsList">
-
+            {{>panier}}
             {{#each salades}}
+                <form class="formulaire">
                 <br><img src="/images/{{image}}" alt="" height="100px">
                 <h2> {{name}}</h2>
                 <h3>
                     <span> {{description}}</span>
                     <br><br>
                     <span> {{price}}€</span>
-                    <span> <input class="inputcompt" min="0" max="10" type="number" name="countitem" value="0" >
-          <input type="submit" name="" value="Commander" class="btn-success"></span><br><br>
+                    <span> <input class="compteur"  min="0" max="10" type="number" name="compteur" value="0" >
+          <input type="submit" name="" value="Ajouter" class="btn-success"></span><br><br>
                 </h3>
+                </form>
             {{/each}}
 
 
