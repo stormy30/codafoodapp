@@ -32,10 +32,17 @@ body {
 }
 
 .navbar {
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+
+    background-image: url('images/bg_top.jpg');
+    font-size: medium;
+    border-color:black;
+}
 /* line 32, ../sass/style.scss */
 .navbar .navbar-inner {
-    border-radius: 0px 0px 3px 3px; }
+    border-radius: 0px 0px 3px 3px;
+
+}
 
 #spinner {
     height: 300px; }

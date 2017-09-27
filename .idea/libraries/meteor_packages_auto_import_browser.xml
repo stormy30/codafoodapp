@@ -2,32 +2,6 @@
   <library name="meteor-packages-auto-import-browser" type="javaScript">
     <properties>
       <sourceFilesUrls>
-        <item url="file://$USER_HOME$/.meteor/packages/html-tools/1.0.11/web.browser/tokenize.js" />
-        <item url="file://$USER_HOME$/.meteor/packages/html-tools/1.0.11/web.browser/utils.js" />
-        <item url="file://$USER_HOME$/.meteor/packages/html-tools/1.0.11/web.browser/charref.js" />
-        <item url="file://$USER_HOME$/.meteor/packages/html-tools/1.0.11/web.browser/parse.js" />
-        <item url="file://$USER_HOME$/.meteor/packages/htmljs/1.0.11/web.browser/html.js" />
-        <item url="file://$USER_HOME$/.meteor/packages/htmljs/1.0.11/web.browser/visitors.js" />
-        <item url="file://$USER_HOME$/.meteor/packages/htmljs/1.0.11/web.browser/preamble.js" />
-        <item url="file://$USER_HOME$/.meteor/packages/http/1.2.12/web.browser/deprecated.js" />
-        <item url="file://$USER_HOME$/.meteor/packages/http/1.2.12/web.browser/test_responder.js" />
-        <item url="file://$USER_HOME$/.meteor/packages/http/1.2.12/web.browser/httpcall_tests.js" />
-        <item url="file://$USER_HOME$/.meteor/packages/http/1.2.12/web.browser/httpcall_common.js" />
-        <item url="file://$USER_HOME$/.meteor/packages/http/1.2.12/web.browser/httpcall_server.js" />
-        <item url="file://$USER_HOME$/.meteor/packages/http/1.2.12/web.browser/httpcall_client.js" />
-        <item url="file://$USER_HOME$/.meteor/packages/random/1.0.10/web.browser/deprecated.js" />
-        <item url="file://$USER_HOME$/.meteor/packages/random/1.0.10/web.browser/random.js" />
-        <item url="file://$USER_HOME$/.meteor/packages/random/1.0.10/web.browser/random_tests.js" />
-        <item url="file://$USER_HOME$/.meteor/packages/rate-limit/1.0.8/web.browser/rate-limit.js" />
-        <item url="file://$USER_HOME$/.meteor/packages/reactive-dict/1.1.9/web.browser/reactive-dict-tests.js" />
-        <item url="file://$USER_HOME$/.meteor/packages/reactive-dict/1.1.9/web.browser/migration.js" />
-        <item url="file://$USER_HOME$/.meteor/packages/reactive-dict/1.1.9/web.browser/reactive-dict.js" />
-        <item url="file://$USER_HOME$/.meteor/packages/reactive-var/1.0.11/web.browser/reactive-var.js" />
-        <item url="file://$USER_HOME$/.meteor/packages/reload/1.1.11/web.browser/deprecated.js" />
-        <item url="file://$USER_HOME$/.meteor/packages/reload/1.1.11/web.browser/reload.js" />
-        <item url="file://$USER_HOME$/.meteor/packages/retry/1.0.9/web.browser/retry.js" />
-        <item url="file://$USER_HOME$/.meteor/packages/service-configuration/1.0.11/web.browser/service_configuration_common.js" />
-        <item url="file://$USER_HOME$/.meteor/packages/session/1.1.7/web.browser/session.js" />
         <item url="file://$USER_HOME$/.meteor/packages/sha/1.0.9/web.browser/sha256.js" />
         <item url="file://$USER_HOME$/.meteor/packages/webapp-hashing/1.0.9/web.browser/webapp-hashing.js" />
         <item url="file://$USER_HOME$/.meteor/packages/spacebars/1.0.15/web.browser/spacebars-runtime.js" />
@@ -257,35 +231,35 @@
         <item url="file://$USER_HOME$/.meteor/packages/geojson-utils/1.0.10/web.browser/main.js" />
         <item url="file://$USER_HOME$/.meteor/packages/html-tools/1.0.11/web.browser/scanner.js" />
         <item url="file://$USER_HOME$/.meteor/packages/html-tools/1.0.11/web.browser/templatetag.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/html-tools/1.0.11/web.browser/tokenize.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/html-tools/1.0.11/web.browser/utils.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/html-tools/1.0.11/web.browser/charref.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/html-tools/1.0.11/web.browser/parse.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/htmljs/1.0.11/web.browser/html.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/htmljs/1.0.11/web.browser/visitors.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/htmljs/1.0.11/web.browser/preamble.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/http/1.2.12/web.browser/deprecated.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/http/1.2.12/web.browser/test_responder.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/http/1.2.12/web.browser/httpcall_tests.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/http/1.2.12/web.browser/httpcall_common.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/http/1.2.12/web.browser/httpcall_server.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/http/1.2.12/web.browser/httpcall_client.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/random/1.0.10/web.browser/deprecated.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/random/1.0.10/web.browser/random.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/random/1.0.10/web.browser/random_tests.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/rate-limit/1.0.8/web.browser/rate-limit.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/reactive-dict/1.1.9/web.browser/reactive-dict-tests.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/reactive-dict/1.1.9/web.browser/migration.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/reactive-dict/1.1.9/web.browser/reactive-dict.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/reactive-var/1.0.11/web.browser/reactive-var.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/reload/1.1.11/web.browser/deprecated.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/reload/1.1.11/web.browser/reload.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/retry/1.0.9/web.browser/retry.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/service-configuration/1.0.11/web.browser/service_configuration_common.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/session/1.1.7/web.browser/session.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
-      <root url="file://$USER_HOME$/.meteor/packages/html-tools/1.0.11/web.browser/tokenize.js" />
-      <root url="file://$USER_HOME$/.meteor/packages/html-tools/1.0.11/web.browser/utils.js" />
-      <root url="file://$USER_HOME$/.meteor/packages/html-tools/1.0.11/web.browser/charref.js" />
-      <root url="file://$USER_HOME$/.meteor/packages/html-tools/1.0.11/web.browser/parse.js" />
-      <root url="file://$USER_HOME$/.meteor/packages/htmljs/1.0.11/web.browser/html.js" />
-      <root url="file://$USER_HOME$/.meteor/packages/htmljs/1.0.11/web.browser/visitors.js" />
-      <root url="file://$USER_HOME$/.meteor/packages/htmljs/1.0.11/web.browser/preamble.js" />
-      <root url="file://$USER_HOME$/.meteor/packages/http/1.2.12/web.browser/deprecated.js" />
-      <root url="file://$USER_HOME$/.meteor/packages/http/1.2.12/web.browser/test_responder.js" />
-      <root url="file://$USER_HOME$/.meteor/packages/http/1.2.12/web.browser/httpcall_tests.js" />
-      <root url="file://$USER_HOME$/.meteor/packages/http/1.2.12/web.browser/httpcall_common.js" />
-      <root url="file://$USER_HOME$/.meteor/packages/http/1.2.12/web.browser/httpcall_server.js" />
-      <root url="file://$USER_HOME$/.meteor/packages/http/1.2.12/web.browser/httpcall_client.js" />
-      <root url="file://$USER_HOME$/.meteor/packages/random/1.0.10/web.browser/deprecated.js" />
-      <root url="file://$USER_HOME$/.meteor/packages/random/1.0.10/web.browser/random.js" />
-      <root url="file://$USER_HOME$/.meteor/packages/random/1.0.10/web.browser/random_tests.js" />
-      <root url="file://$USER_HOME$/.meteor/packages/rate-limit/1.0.8/web.browser/rate-limit.js" />
-      <root url="file://$USER_HOME$/.meteor/packages/reactive-dict/1.1.9/web.browser/reactive-dict-tests.js" />
-      <root url="file://$USER_HOME$/.meteor/packages/reactive-dict/1.1.9/web.browser/migration.js" />
-      <root url="file://$USER_HOME$/.meteor/packages/reactive-dict/1.1.9/web.browser/reactive-dict.js" />
-      <root url="file://$USER_HOME$/.meteor/packages/reactive-var/1.0.11/web.browser/reactive-var.js" />
-      <root url="file://$USER_HOME$/.meteor/packages/reload/1.1.11/web.browser/deprecated.js" />
-      <root url="file://$USER_HOME$/.meteor/packages/reload/1.1.11/web.browser/reload.js" />
-      <root url="file://$USER_HOME$/.meteor/packages/retry/1.0.9/web.browser/retry.js" />
-      <root url="file://$USER_HOME$/.meteor/packages/service-configuration/1.0.11/web.browser/service_configuration_common.js" />
-      <root url="file://$USER_HOME$/.meteor/packages/session/1.1.7/web.browser/session.js" />
       <root url="file://$USER_HOME$/.meteor/packages/sha/1.0.9/web.browser/sha256.js" />
       <root url="file://$USER_HOME$/.meteor/packages/webapp-hashing/1.0.9/web.browser/webapp-hashing.js" />
       <root url="file://$USER_HOME$/.meteor/packages/spacebars/1.0.15/web.browser/spacebars-runtime.js" />
@@ -515,6 +489,32 @@
       <root url="file://$USER_HOME$/.meteor/packages/geojson-utils/1.0.10/web.browser/main.js" />
       <root url="file://$USER_HOME$/.meteor/packages/html-tools/1.0.11/web.browser/scanner.js" />
       <root url="file://$USER_HOME$/.meteor/packages/html-tools/1.0.11/web.browser/templatetag.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/html-tools/1.0.11/web.browser/tokenize.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/html-tools/1.0.11/web.browser/utils.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/html-tools/1.0.11/web.browser/charref.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/html-tools/1.0.11/web.browser/parse.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/htmljs/1.0.11/web.browser/html.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/htmljs/1.0.11/web.browser/visitors.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/htmljs/1.0.11/web.browser/preamble.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/http/1.2.12/web.browser/deprecated.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/http/1.2.12/web.browser/test_responder.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/http/1.2.12/web.browser/httpcall_tests.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/http/1.2.12/web.browser/httpcall_common.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/http/1.2.12/web.browser/httpcall_server.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/http/1.2.12/web.browser/httpcall_client.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/random/1.0.10/web.browser/deprecated.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/random/1.0.10/web.browser/random.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/random/1.0.10/web.browser/random_tests.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/rate-limit/1.0.8/web.browser/rate-limit.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/reactive-dict/1.1.9/web.browser/reactive-dict-tests.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/reactive-dict/1.1.9/web.browser/migration.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/reactive-dict/1.1.9/web.browser/reactive-dict.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/reactive-var/1.0.11/web.browser/reactive-var.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/reload/1.1.11/web.browser/deprecated.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/reload/1.1.11/web.browser/reload.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/retry/1.0.9/web.browser/retry.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/service-configuration/1.0.11/web.browser/service_configuration_common.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/session/1.1.7/web.browser/session.js" />
     </CLASSES>
     <SOURCES />
   </library>

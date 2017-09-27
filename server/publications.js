@@ -21,3 +21,7 @@ Meteor.publish('boissons', function() {
 Meteor.publish('desserts', function() {
     return Desserts.find();
 });
+
+Meteor.publish('commandes', function() {
+    return commandes.find();
+});

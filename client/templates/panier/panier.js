@@ -1,4 +1,5 @@
 Meteor.subscribe("Panier");
+
 Template.panier.helpers({
     panier: function(){return Panier.find();
     },
