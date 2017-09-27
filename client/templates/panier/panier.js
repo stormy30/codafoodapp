@@ -30,7 +30,8 @@ Template.pizzas.events({
             image:this.image,
             name:this.name,
             price:this.price,
-            invoiceprice:this.price*compteur
+            invoiceprice:this.price*compteur,
+            total:this.total
         });
 
         }
@@ -54,6 +55,7 @@ Template.burgers.events({
             name:this.name,
             price:this.price,
             invoiceprice:this.price*compteur
+
         });
 
     }
@@ -76,7 +78,8 @@ Template.salades.events({
             image:this.image,
             name:this.name,
             price:this.price,
-            invoiceprice:this.price*compteur
+            invoiceprice:this.price*compteur,
+
         });
 
     }
@@ -125,7 +128,8 @@ Template.desserts.events({
             image:this.image,
             name:this.name,
             price:this.price,
-            invoiceprice:this.price*compteur
+            invoiceprice:this.price*compteur,
+            
         });
 
     }

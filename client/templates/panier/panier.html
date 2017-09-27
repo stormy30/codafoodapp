@@ -20,8 +20,8 @@
                                 <br>
                             {{/each}}
                     <br><br><h2>Total du panier :{{total}}€<br></h2>
-                        <a href="/commande" class="retour"> <input  class= " btn btn-primary commander " type="submit" name="commander" value="Passer ma commande !"></a>
-
+                       <input  class= " btn btn-primary commander " type="submit" name="commander" value="Passer ma commande !">
+<a href="{{pathFor 'categoriesList'}}">Poursuivre la commande</a>
                     </form>
                 </div>
 

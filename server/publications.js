@@ -23,5 +23,5 @@ Meteor.publish('desserts', function() {
 });
 
 Meteor.publish('commandes', function() {
-    return commandes.find();
+    return Commandes.find();
 });

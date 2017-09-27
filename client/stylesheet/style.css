@@ -18,6 +18,7 @@ body {
     background-image: url("/images/Food.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    font-size: 24px;
 }
 
 #main {

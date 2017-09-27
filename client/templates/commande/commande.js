@@ -2,6 +2,9 @@ Meteor.subscribe("panier");
 Meteor.subscribe("commandes");
 
 
+
+
+
 // Template.header.events({
 //     'submit .validercommande'() {
 //
@@ -13,38 +16,35 @@ Meteor.subscribe("commandes");
 //     }
 //  });
 Template.panier.events({
-    'submit .validercommande'() {
-
+    'submit .validercommande'(event) {
+     event.preventDefault();
         Panier.find().observe({
             added:function (item) {
-                commandes.insert(item);
+                Commandes.insert(item);
             }
         });
+        Router.go('commande')
     }
 });
-Template.commande.helpers({
-    commande: function() {
-         return commandes.find();
+Template.commandes.helpers({
+    commandes: function() {
+         return Commandes.find();
+    },
+
+//  on rappelle la meme fonction qui sert au CALCUL du TOTAL PANIER dans
+    //le helper du template commande car c'est un calcul qui se fait a la fin(total de la commande)
+    'total': function () {
+        // on initialise le
+        total = 0;
+        Commandes.find({}, {fields:{invoiceprice:1}}).map(function(doc) {
+            total += doc.invoiceprice;
+        });
+        return total;
     }
- });
-// Meteor.subscribe("panierlist");
-// Meteor.subscribe('commandesubmitted');
-//
-// Template.panierlist.events({
-//     'submit .passercommande'() {
-//
-//         Panierlist.find().observe({
-//             added: function (item) {
-//                 Commandesubmitted.insert(item);
-//             }
-//         });
-//     }
-// });
-// Template.panierlist.helpers({
-//     panierlist: function () {
-//         return Commandesubmitted.find();
-//     }
-// });
+
+});
+
+
 
 
 
