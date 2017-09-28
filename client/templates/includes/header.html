@@ -15,15 +15,17 @@
             <a class="navbar-brand" href="{{pathFor 'categoriesList'}}">CODAFOODapp</a>
         </div>
         <div class="collapse navbar-collapse" id="navigation">
-
+            <form class="validercommande" >
             <ul class="nav navbar-nav">
                 {{#if currentUser}}
                     <li>
-                        <a href="{{pathFor 'commande'}}  ">Passer votre commande</a>
+                        <!--<a href="{{pathFor 'commande'}}  ">Passer votre commande</a>-->
+                        <a href="/commande "><i class="fa fa-cart-arrow-down fa-2x" aria-hidden="true"></i>
+                        </a>
                     </li>
                 {{/if}}
             </ul>
-
+            </form>
             <ul class="nav navbar-nav navbar-right">
                 {{> loginButtons}}
             </ul>
