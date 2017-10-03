@@ -25,7 +25,7 @@ Template.pizzas.events({
       // console.log(compteur);
         //insertion des données dans la bd locale:Panier
         Panier.insert({
-
+            // userid:this.userid,
             compteur:compteur,
             image:this.image,
             name:this.name,
@@ -49,7 +49,7 @@ Template.burgers.events({
         // console.log(compteur);
         //insertion des données dans la bd locale:Panier
         Panier.insert({
-
+            // userid:this.userid,
             compteur:compteur,
             image:this.image,
             name:this.name,
@@ -73,7 +73,7 @@ Template.salades.events({
         // console.log(compteur);
         //insertion des données dans la bd locale:Panier
         Panier.insert({
-
+            // userid:this.userid,
             compteur:compteur,
             image:this.image,
             name:this.name,
@@ -99,7 +99,7 @@ Template.boissons.events({
         // console.log(compteur);
         //insertion des données dans la bd locale:Panier
         Panier.insert({
-
+            // userid:this.userid,
             compteur:compteur,
             image:this.image,
             name:this.name,
@@ -123,7 +123,7 @@ Template.desserts.events({
         // console.log(compteur);
         //insertion des données dans la bd locale:Panier
         Panier.insert({
-
+            // userid:this.userid,
             compteur:compteur,
             image:this.image,
             name:this.name,
@@ -158,6 +158,7 @@ Template.panier.events({
 // grace a fonction .update() va permettre la modif de l'id et de tout les éléments propre à l'id.
        // la modification est +complexe que la suppression car ici il faut cibler par l'_id.
         Panier.update(this._id, {
+            // userid:this.userid,
             compteur:compteur,
             invoiceprice:this.price*compteur,
             name:this.name,

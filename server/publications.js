@@ -23,5 +23,12 @@ Meteor.publish('desserts', function() {
 });
 
 Meteor.publish('commandes', function() {
+
     return Commandes.find();
 });
+
+
+Meteor.publish(null, function (){
+    return Meteor.roles.find({})
+});
+

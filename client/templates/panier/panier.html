@@ -19,8 +19,13 @@
                                 <br>
                             {{/each}}
                     <br><br><h2>Total du panier :{{total}}€<br></h2>
-                       <input  class= " btn btn-primary commander " type="submit" name="commander" value="Passer ma commande !">
-<a href="{{pathFor 'categoriesList'}}">Poursuivre la commande</a>
+
+                        <!--{{#if currentUser }}-->
+                            <input  class= " btn btn-primary commander " type="submit" name="commander" value="Passer ma commande !">
+                        <!--{{else}}-->
+                            <!--<h2>Inscrivez vous ou connectez vous pour passer votre commande !</h2>-->
+                        <!--{{/if}}-->
+                    <a href="{{pathFor 'categoriesList'}}">Poursuivre la commande</a>
                     </form>
                 </div>
 

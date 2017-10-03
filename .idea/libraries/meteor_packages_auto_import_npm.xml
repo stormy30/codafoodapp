@@ -2308,9 +2308,13 @@
         <item url="file://$USER_HOME$/.meteor/packages/ecmascript-runtime-server/0.4.1/npm/node_modules/core-js/es7/asap.js" />
         <item url="file://$USER_HOME$/.meteor/packages/babel-compiler/6.20.0/npm/node_modules/core-js/library/fn/string/virtual/italics.js" />
         <item url="file://$USER_HOME$/.meteor/packages/ecmascript-runtime-server/0.4.1/npm/node_modules/core-js/es7/reflect.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/aldeed_tabular/1.4.2/npm/node_modules/datatables/media/css/jquery.dataTables.min.css" />
         <item url="file://$USER_HOME$/.meteor/packages/babel-compiler/6.20.0/npm/node_modules/core-js/library/fn/string/virtual/includes.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/aldeed_tabular/1.4.2/npm/node_modules/datatables/media/css/jquery.dataTables.css" />
         <item url="file://$USER_HOME$/.meteor/packages/ecmascript-runtime-server/0.4.1/npm/node_modules/core-js/es7/observable.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/aldeed_tabular/1.4.2/npm/node_modules/datatables/media/js/jquery.dataTables.min.js" />
         <item url="file://$USER_HOME$/.meteor/packages/babel-compiler/6.20.0/npm/node_modules/core-js/library/fn/string/virtual/ends-with.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/aldeed_tabular/1.4.2/npm/node_modules/datatables/media/js/jquery.dataTables.js" />
         <item url="file://$USER_HOME$/.meteor/packages/ecmascript-runtime-server/0.4.1/npm/node_modules/core-js/es7/set.js" />
         <item url="file://$USER_HOME$/.meteor/packages/babel-compiler/6.20.0/npm/node_modules/core-js/library/fn/symbol/match.js" />
         <item url="file://$USER_HOME$/.meteor/packages/ecmascript-runtime-server/0.4.1/npm/node_modules/core-js/es7/error.js" />
@@ -7455,9 +7459,13 @@
       <root url="file://$USER_HOME$/.meteor/packages/ecmascript-runtime-server/0.4.1/npm/node_modules/core-js/es7/asap.js" />
       <root url="file://$USER_HOME$/.meteor/packages/babel-compiler/6.20.0/npm/node_modules/core-js/library/fn/string/virtual/italics.js" />
       <root url="file://$USER_HOME$/.meteor/packages/ecmascript-runtime-server/0.4.1/npm/node_modules/core-js/es7/reflect.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/aldeed_tabular/1.4.2/npm/node_modules/datatables/media/css/jquery.dataTables.min.css" />
       <root url="file://$USER_HOME$/.meteor/packages/babel-compiler/6.20.0/npm/node_modules/core-js/library/fn/string/virtual/includes.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/aldeed_tabular/1.4.2/npm/node_modules/datatables/media/css/jquery.dataTables.css" />
       <root url="file://$USER_HOME$/.meteor/packages/ecmascript-runtime-server/0.4.1/npm/node_modules/core-js/es7/observable.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/aldeed_tabular/1.4.2/npm/node_modules/datatables/media/js/jquery.dataTables.min.js" />
       <root url="file://$USER_HOME$/.meteor/packages/babel-compiler/6.20.0/npm/node_modules/core-js/library/fn/string/virtual/ends-with.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/aldeed_tabular/1.4.2/npm/node_modules/datatables/media/js/jquery.dataTables.js" />
       <root url="file://$USER_HOME$/.meteor/packages/ecmascript-runtime-server/0.4.1/npm/node_modules/core-js/es7/set.js" />
       <root url="file://$USER_HOME$/.meteor/packages/babel-compiler/6.20.0/npm/node_modules/core-js/library/fn/symbol/match.js" />
       <root url="file://$USER_HOME$/.meteor/packages/ecmascript-runtime-server/0.4.1/npm/node_modules/core-js/es7/error.js" />
